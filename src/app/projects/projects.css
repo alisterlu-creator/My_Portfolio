@@ -1,0 +1,39 @@
+
+.project-card {
+  width: 25rem;
+  border-radius: 30px;
+  box-shadow: 0 20px 8px rgba(0, 0, 0, 0.1);
+  margin-bottom: 20px;
+}
+
+
+.project-card .card-img-top {
+  border-top-left-radius: 15px;
+  border-top-right-radius: 15px;
+  object-fit: cover;
+  height: 200px;
+}
+
+.project-card .card-title {
+  font-size: 1.75rem;
+}
+
+.project-card .card-text {
+  font-size: 1.25rem;
+  margin-bottom: 1.5rem;
+}
+
+.project-card .btn-dark {
+  border-radius: 15px;
+  padding: 10px 70px;
+  font-size: 1rem;
+  transition: background-color 0.3s;
+}
+
+.projects-wrapper {
+  display: flex;
+  justify-content: center;
+  flex-wrap: wrap;
+  gap: 50px;
+  margin:0;
+}

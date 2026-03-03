@@ -1,7 +1,7 @@
 export const myProjects = [
   {
     id: 1,
-    projectName: 'Name of my projecz',
+    projectName: 'Name of my project',
     image: '../images/task1.jpg',
     projectDescription: 'This is what this is',
   },
