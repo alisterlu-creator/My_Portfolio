@@ -30,7 +30,8 @@ footer a {
 
 footer i {
     cursor: pointer;
-    font-size: 30px;
+    font-size: 20px;
+    color:black;
 }
 
 footer p {
