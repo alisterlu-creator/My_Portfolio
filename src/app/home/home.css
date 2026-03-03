@@ -1,0 +1,22 @@
+
+.hero {
+  position: relative;
+  height: 100vh;
+  overflow: hidden;
+  margin-top: 0;
+}
+
+.hero-content {
+  position: relative;
+  z-index: 1;
+  padding: 2rem;
+  color: white;
+}
+.btn {
+    margin-top: 1rem;
+    display: block;
+}
+
+p {
+    font-size: 20px;
+}
