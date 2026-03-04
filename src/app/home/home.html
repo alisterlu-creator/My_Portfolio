@@ -1,38 +1,52 @@
 <main>
+  <!-- Hero / Welcome Section -->
   <section class="hero">
     <div class="container p-5">
-      <!-- Title-->
+      <!-- Title -->
       <h1>Alister | Full Stack Developer</h1>
-      <!-- teaser-->
-      <div class="text-container">
-        <p>
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Magnam odit possimus
-          perspiciatis, cumque corrupti accusantium aspernatur blanditiis cupiditate. Eos delectus
-          sunt esse, nisi commodi fugiat? Expedita animi repellendus amet. Aperiam numquam neque
-          mollitia obcaecati provident officia quos, maiores perferendis veniam consectetur amet
-          similique hic, placeat, labore dolore quidem ex harum!/p>
-          <br />
-          <button class="btn btn-outline-dark btn-md mt-3" routerLink="about" type="button">
-            look at my projects!
-          </button>
-        </p>
+
+      <!-- Teaser with Text + Image -->
+      <div class="row align-items-center mt-4">
+        <!-- Text Column -->
+        <div class="col-md-6">
+          <div class="text-container">
+            <p>
+              welcome to my portfolio! i'm a developer who loves blending creativity with code.
+              explore my web projects, experiments and digital creations. all built with passion and
+              curiosity.
+            </p>
+            <button class="btn btn-outline-dark btn-md mt-3" routerLink="about" type="button">
+              look at my projects!
+            </button>
+          </div>
+        </div>
+
+        <!-- Image Column -->
+        <div class="col-md-6 text-center">
+          <img
+            src="images/welcome.png"
+            class="img-fluid"
+            alt="Pixel man that looks like me holding a camera and headphones. Above him is a pixel message bubble saying welcome."
+          />
+        </div>
       </div>
     </div>
   </section>
+
+  <!-- About Me Section -->
   <section class="hero">
     <div class="container p-5">
-      <!-- Title-->
+      <!-- Title -->
       <h1>About me</h1>
-      <!-- About me teaser-->
+
+      <!-- About Me Teaser -->
       <p>
         hi! i’m alister, a learning fullstack developer based in vienna, austria. i'm passionate
-        about creativity and self expression and i let these values shape the way i code and design.
-        <!-- About me button-->
-        <br />
-        <button class="btn btn-outline-dark btn-md mt-3" routerLink="about" type="button">
-          learn more about me!
-        </button>
+        about creativity and self-expression and i let these values shape the way i code and design.
       </p>
+      <button class="btn btn-outline-dark btn-md mt-3" routerLink="about" type="button">
+        learn more about me!
+      </button>
     </div>
   </section>
 </main>
