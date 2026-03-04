@@ -2,6 +2,24 @@
 
 This project was generated using [Angular CLI](https://github.com/angular/angular-cli) version 21.1.4.
 
+this is my personal portfolio website built using angular to showcase my projects, skills, and experience. it highlights my work on responsive web applications, dynamic content, and single-page applications.
+
+## features
+
+- responsive navigation bar with routing between pages
+- about me section with professional introduction and technologies
+- projects showcase with descriptions, technologies used, and my contributions
+- contact section with a form for getting in touch
+
+## technologies used
+
+- html
+- css
+- javascript
+- typescript
+- angular
+- bootstrap
+
 ## Development server
 
 To start a local development server, run:
