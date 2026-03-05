@@ -1,0 +1,49 @@
+[33mc9811e5[m[33m ([m[1;36mHEAD[m[33m -> [m[1;32mmaster[m[33m)[m gitignore for mp4
+[33mad16e91[m ok
+[33m1226fac[m gone
+[33mdf7bc4e[m removed bullshit Rasched his commit
+[33mcc61115[m makes logo smaller
+[33m7dc8309[m cleans up code and adds comments
+[33m9abb98b[m adds skills to homepage
+[33m9d0b886[m structures contact page
+[33m16624ea[m adds github link to project card
+[33m5d32aea[m styles contact page- text and buttons
+[33m674013e[m removes slack icon in footer
+[33m4374f20[m corrects description text
+[33m33254ca[m adds costumized readme text
+[33m7173dd6[m adds instagram link
+[33m699e33e[m corrects about me text
+[33m5a76a62[m creates contact component and links it to navbar
+[33m643efa2[m styles homepage
+[33m516b49f[m adds pictures of my projects to projects array
+[33m6cb6c85[m links exam github projects
+[33md9789e8[m adds lowercase text
+[33m6655be5[m adds projects with descriptions
+[33md3ffda5[m styles about me page
+[33mf5236e7[m adds about me text
+[33m1d63cee[m styles homepage
+[33mdd41173[m styles the homepage
+[33m0ced5d3[m adds and removes background pngs
+[33m884bda9[m styles homepage text
+[33m30da0bc[m adds logo to the navbar
+[33mf86f48d[m adds logo for nav
+[33md3405f0[m styles text
+[33mb56aa5e[m adds google fonts and adds font to headings
+[33mdee20a5[m adds the stars bg to the body
+[33maaa9833[m adds stars bg
+[33m0a0bff8[m links pages
+[33m9b662e5[m adds hero and about section
+[33m1b760ec[m resets navbar
+[33m23fcf2e[m resets homepage
+[33m53e6b4d[m fixes navbar styling
+[33m304c91d[m styles hero section
+[33m4df65fa[m creates ts file with array for projects
+[33mb6d27d3[m creats project typescript with project array
+[33mbcf64b7[m creates projects wrapper
+[33mb5aaec0[m links projects page to navbar
+[33mfe38063[m adds routerlink to navbar
+[33mc96d72b[m adds about content
+[33me1a5bdb[m adds about me page to app routes
+[33m4927427[m inserts github and linkedin link
+[33m53fb1b7[m adds homepage route
+[33m72639b1[m changes title
