@@ -1,29 +1,26 @@
 <main>
-  <!-- hero / welcome section -->
+  <!-- hero section -->
   <section class="hero">
     <div class="container py-5">
       <h1 class="text-center text-md-start">Alister | Full Stack Developer</h1>
 
       <div class="row align-items-center mt-4">
         <!-- hero text -->
-        <div class="col-md-6 mb-4 mb-md-0">
-          <div class="bg-container p-3">
-            <p class="mb-3">
-              welcome to my portfolio! i'm a developer who loves blending creativity with code.
-              explore my web projects, experiments and digital creations. all built with passion and
-              curiosity.
-            </p>
-            <!-- hero button -->
+        <div class="col-md-6 mb-5 mb-md-0 bg-container p-3">
+          <p class="mb-5">
+            welcome to my portfolio! i'm a developer who loves blending creativity with code.
+            explore my web projects, experiments and digital creations. all built with passion and
+            curiosity.
+          </p>
 
-            <button class="btn btn-outline-dark mt-3" routerLink="/projects" type="button">
-              look at my projects!
-            </button>
-          </div>
+          <button class="btn btn-outline-dark mt-3" routerLink="/projects" type="button">
+            look at my projects!
+          </button>
         </div>
 
-        <!-- project card  -->
-        <div class="col-md-6">
-          <div class="card project-card text-container mx-auto">
+        <!-- project card -->
+        <div class="col-md-6 mb-5">
+          <article class="card project-card text-container mx-auto">
             <img
               src="images/famazon.png"
               alt="a webshop page made with angular"
@@ -31,9 +28,9 @@
             />
 
             <div class="card-body text-center">
-              <h3 class="card-title">Online Shop Project</h3>
+              <h3 class="card-title">online shop project</h3>
 
-              <p class="card-text text-muted">a webshop page made with angular</p>
+              <p class="card-text text-muted">an online shop made with angular</p>
 
               <a
                 class="btn btn-outline-dark mt-3"
@@ -43,7 +40,7 @@
                 take a look!
               </a>
             </div>
-          </div>
+          </article>
         </div>
       </div>
     </div>
@@ -53,53 +50,55 @@
   <section class="about">
     <div class="container py-5">
       <div class="row align-items-center">
-        <!-- Pixel image  -->
-        <div class="col-md-5 text-center mb-4 mb-md-0">
-          <div class="image-container mx-auto">
+        <!-- pixel image -->
+        <div class="col-md-5 text-center mb-5 mb-md-0">
+          <figure class="image-container mx-auto">
             <img
               src="images/welcome.png"
-              class="img-fluid"
+              class="img-fluid mb-5"
               alt="Pixel man holding a camera and headphones. Pixel message bubble saying welcome."
             />
-          </div>
+          </figure>
         </div>
 
         <!-- text about me -->
-        <div class="col-md-7 text-center text-md-start">
-          <div class="bg-container p-3">
+        <div class="col-md-7 text-center text-md-start bg-container p-3">
+          <header>
             <h1>about me</h1>
+          </header>
 
-            <p>
-              hi! i’m alister, a learning fullstack developer based in vienna, austria. i'm
-              passionate about creativity and self-expression and i let these values shape the way i
-              code and design.
-            </p>
+          <p>
+            hi! i’m alister, a learning fullstack developer based in vienna, austria. i'm passionate
+            about creativity and self-expression and i let these values shape the way i code and
+            design.
+          </p>
 
-            <button class="btn btn-outline-dark mt-3" routerLink="/about" type="button">
-              learn more about me!
-            </button>
-          </div>
+          <button class="btn btn-outline-dark mt-3 mb-5" routerLink="/about" type="button">
+            learn more about me!
+          </button>
         </div>
       </div>
     </div>
   </section>
+
   <!-- skills section -->
   <section>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-7 text-center">
-          <div class="bg-container image-container p-3">
+        <div class="col-md-7 text-center bg-container image-container p-3">
+          <header>
             <h1>Skills</h1>
+          </header>
 
+          <figure>
             <img src="images/ripped_paper_small.png" class="img-fluid" />
-
-            <div class="image-text">
+            <figcaption class="image-text">
               <h2 class="mt-7">
                 html, css, js, <br />
                 ts, angular
               </h2>
-            </div>
-          </div>
+            </figcaption>
+          </figure>
         </div>
       </div>
     </div>
