@@ -26,7 +26,7 @@ p {
   margin-bottom: 20px;
 }
 
-button {
+button, a  {
     border: 4px solid black;
     box-shadow: 
          4px 4px 0 black;
@@ -36,13 +36,13 @@ button {
 }
 @media (max-width: 992px) {
   h1 {
-    font-size: 6rem;   /* smaller on tablets */
+    font-size: 6rem;
   }
 }
 
-/* Small screens (phones) */
+/* Small screens */
 @media (max-width: 576px) {
   h1 {
-    font-size: 4rem;   /* mobile-friendly */
+    font-size: 4rem;
   }
 }
