@@ -20,7 +20,7 @@
 
         <!-- project card -->
         <div class="col-md-6 mb-5">
-          <article class="card project-card text-container mx-auto">
+          <article class="card project-card text-container mx-auto custom-container">
             <img
               src="images/famazon.png"
               alt="a webshop page made with angular"
@@ -47,31 +47,27 @@
   </section>
 
   <!-- about section -->
-  <section class="about">
+  <section class="about mb-5">
     <div class="container py-5">
       <div class="row align-items-center">
-        <!-- pixel image -->
-        <div class="col-md-5 text-center mb-5 mb-md-0">
+        <!-- image -->
+        <div class="col-md-5 text-center mb-4 mb-md-0">
           <img
             src="images/welcome.png"
-            class="img-fluid mb-5"
-            alt="Pixel man holding a camera and headphones. Pixel message bubble saying welcome."
+            class="img-fluid"
+            alt="Pixel man holding a camera and headphones."
           />
         </div>
 
-        <!-- text about me -->
-        <div class="col-md-7 text-center text-md-start bg-container p-3">
-          <header>
-            <h1>about me</h1>
-          </header>
-
+        <!-- text -->
+        <div class="col-md-7 text-md-start text-center">
+          <h1>about me</h1>
           <p>
             hi! i’m alister, a learning fullstack developer based in vienna, austria. i'm passionate
             about creativity and self-expression and i let these values shape the way i code and
             design.
           </p>
-
-          <button class="btn btn-outline-dark mt-3 mb-5" routerLink="/about" type="button">
+          <button class="btn btn-outline-dark mt-3" routerLink="/about">
             learn more about me!
           </button>
         </div>
@@ -99,7 +95,7 @@
   <section
     class="contact col-md-7 mx-auto text-center d-flex justify-content-center align-items-center mt-5"
   >
-    <div class="bg-container p-3">
+    <div class="bg-container p-3 mb-5">
       <div class="contact-text">
         <!-- Contact text-->
         <h1>Contact me!</h1>
@@ -139,5 +135,21 @@
         </a>
       </div>
     </div>
+  </section>
+  <section class="phantom-footer mt-5">
+    <ul class="mb-2 mb-lg-0">
+      <li>
+        <a routerLink="">Home</a>
+      </li>
+      <li>
+        <a routerLink="about">About me</a>
+      </li>
+      <li>
+        <a routerLink="projects">Projects</a>
+      </li>
+      <li>
+        <a routerLink="contact">Contact</a>
+      </li>
+    </ul>
   </section>
 </main>
