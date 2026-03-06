@@ -118,6 +118,16 @@ button:hover, a:hover {
     box-shadow: none;
 }
 
+.contact-links {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 10px;
+}
+
+.skills {
+  color:black
+}
 
 
 @media (max-width: 992px) {
