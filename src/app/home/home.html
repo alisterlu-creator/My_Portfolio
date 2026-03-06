@@ -6,41 +6,39 @@
 
       <div class="row align-items-center mt-4">
         <!-- hero text -->
-        <div class="col-md-6 mb-5 mb-md-0 bg-container p-3">
-          <p class="mb-5">
+        <div class="col-md-6 mb-5 mb-md-0 p-3">
+          <p class="m3-5">
             welcome to my portfolio! i'm a developer who loves blending creativity with code.
             explore my web projects, experiments and digital creations. all built with passion and
             curiosity.
           </p>
 
           <button class="btn btn-outline-dark mt-3" routerLink="/projects" type="button">
-            look at my projects!
+            look at other projects!
           </button>
         </div>
 
         <!-- project card -->
         <div class="col-md-6 mb-5">
-          <article class="card project-card text-container mx-auto custom-container">
-            <img
-              src="images/famazon.png"
-              alt="a webshop page made with angular"
-              class="card-img-top"
-            />
-
-            <div class="card-body text-center">
-              <h3 class="card-title">online shop project</h3>
-
-              <p class="card-text text-muted">an online shop made with angular</p>
-
-              <a
-                class="btn btn-outline-dark mt-3"
-                href="https://github.com/alisterlu-creator/FE27-EXAM-3-Lugstein"
-                target="_blank"
+          <a
+            href="https://github.com/alisterlu-creator/FE27-EXAM-3-Lugstein"
+            target="_blank"
+            class="project-link"
+          >
+            <div class="card project-card text-white overflow-hidden">
+              <img
+                src="images/famazon.png"
+                class="card-img"
+                alt="a webshop page made with angular"
+              />
+              <div
+                class="card-overlay d-flex flex-column justify-content-center align-items-center text-center p-3"
               >
-                take a look!
-              </a>
+                <h2 class="card-title">online shop project</h2>
+                <p class="card-text text-center">look at the online shop i made with angular</p>
+              </div>
             </div>
-          </article>
+          </a>
         </div>
       </div>
     </div>
@@ -79,10 +77,8 @@
   <section>
     <div class="container">
       <div class="row justify-content-center">
-        <div class="col-md-7 text-center bg-container image-container p-3">
-          <header>
-            <h1>Skills</h1>
-          </header>
+        <div class="col-md-7 text-center image-container p-3">
+          <h1>Skills</h1>
 
           <h2 class="mb-5">
             html, css, js, <br />
@@ -95,7 +91,7 @@
   <section
     class="contact col-md-7 mx-auto text-center d-flex justify-content-center align-items-center mt-5"
   >
-    <div class="bg-container p-3 mb-5">
+    <div class="p-3 mb-5">
       <div class="contact-text">
         <!-- Contact text-->
         <h1>Contact me!</h1>
