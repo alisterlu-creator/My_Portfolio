@@ -1,3 +1,13 @@
+.bw-img {
+  filter: grayscale(100%);
+  transition: filter 0.6s ease-out;
+}
+
+.bw-img:hover {
+  filter: grayscale(0%);
+}
+
+
 .phantom-footer ul {
   display: flex;
   justify-content: space-around;
@@ -11,3 +21,4 @@
   text-decoration: none;
   color: black;
 }
+
