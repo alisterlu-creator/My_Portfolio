@@ -1,20 +1,13 @@
-.text-container {
-    background-color: white;
-    border: 0px solid black;
-    box-shadow: 
-         8px 8px 0 grey;
-    padding: 2rem;
-    text-align: center;
-    border-radius: 30px;
-    margin: 2rem;
+.phantom-footer ul {
+  display: flex;
+  justify-content: space-around;
+  list-style: none;
+  padding: 0;
+  margin: 0;
 }
-.phantom-footer li a {
-    font-size: 15px;
-    text-decoration: none;
-    color: black;
-    border: none;
-    padding: 0;
-    margin: 0;
-    border: none;
-    box-shadow: none;
+
+.phantom-footer ul li a {
+  font-size: 15px;
+  text-decoration: none;
+  color: black;
 }
