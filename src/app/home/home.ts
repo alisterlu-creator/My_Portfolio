@@ -1,6 +1,5 @@
 import { Component } from '@angular/core';
 import { RouterModule } from '@angular/router';
-import { myProjects } from '../my-products';
 
 @Component({
   selector: 'app-home',
@@ -8,6 +7,4 @@ import { myProjects } from '../my-products';
   templateUrl: './home.html',
   styleUrl: './home.css',
 })
-export class Home {
-  projects = myProjects;
-}
+export class Home {}
